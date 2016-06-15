@@ -1,10 +1,10 @@
-" File:			greyman.vim
-" Description:	A minimalist colorscheme that uses barely any syntax highlighting
-" Author:		Brian Dellatera <github.com/bdellaterra>
-" Version:		0.1
+" File:         greyman.vim
+" Description:  A minimalist colorscheme that uses barely any syntax highlighting
+" Author:       Brian Dellatera <github.com/bdellaterra>
+" Version:      0.1
 " License:      Copyright 2015 Brian Dellaterra. Greyman is free software.
-" 				Distributed under the terms of the MIT License. See the file LICENSE.
-" Thanks To:	The creators of <http://bytefluent.com/vivify> for providing a tool
+"               Distributed under the terms of the MIT License. See the file LICENSE.
+" Thanks To:    The creators of <http://bytefluent.com/vivify> for providing a tool
 "               that helped the author code this file.
 
 " From: <http://www.urbandictionary.com/define.php?term=grey%20man>
@@ -16,10 +16,10 @@
 
 set background=light
 if version > 580
-	hi clear
-	if exists("syntax_on")
-		syntax reset
-	endif
+    hi clear
+    if exists("syntax_on")
+        syntax reset
+    endif
 endif
 
 set t_Co=256
