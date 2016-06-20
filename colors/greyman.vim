@@ -1,10 +1,10 @@
-" File:         greyman.vim
-" Description:  A minimalist colorscheme that uses barely any syntax highlighting
-" Author:       Brian Dellatera <github.com/bdellaterra>
-" Version:      0.1
+" File:			greyman.vim
+" Description:	A minimalist colorscheme that uses barely any syntax highlighting
+" Author:		Brian Dellatera <github.com/bdellaterra>
+" Version:		0.1
 " License:      Copyright 2015 Brian Dellaterra. Greyman is free software.
-"               Distributed under the terms of the MIT License. See the file LICENSE.
-" Thanks To:    The creators of <http://bytefluent.com/vivify> for providing a tool
+" 				Distributed under the terms of the MIT License. See the file LICENSE.
+" Thanks To:	The creators of <http://bytefluent.com/vivify> for providing a tool
 "               that helped the author code this file.
 
 " From: <http://www.urbandictionary.com/define.php?term=grey%20man>
@@ -16,10 +16,10 @@
 
 set background=light
 if version > 580
-    hi clear
-    if exists("syntax_on")
-        syntax reset
-    endif
+	hi clear
+	if exists("syntax_on")
+		syntax reset
+	endif
 endif
 
 set t_Co=256
@@ -36,7 +36,7 @@ hi SpellLocal guifg=#e6c9ce guibg=#241524 guisp=#241524 gui=underline ctermfg=18
 hi SpellBad guifg=#e6c9ce guibg=#241524 guisp=#241524 gui=underline ctermfg=181 ctermbg=235 cterm=underline
 hi SpellCap guifg=#e6c9ce guibg=#241524 guisp=#241524 gui=underline ctermfg=181 ctermbg=235 cterm=underline
 hi DiffText guifg=#bdbdbd guibg=#380505 guisp=#380505 gui=NONE ctermfg=250 ctermbg=52 cterm=NONE
-hi DiffDelete guifg=#000000 guibg=#574c4c guisp=#574c4c gui=NONE ctermfg=NONE ctermbg=238 cterm=NONE
+hi DiffDelete guifg=#000000 guibg=#691717 guisp=#691717 gui=NONE ctermfg=NONE ctermbg=238 cterm=NONE
 hi DiffChange guifg=#000000 guibg=#807348 guisp=#807348 gui=NONE ctermfg=NONE ctermbg=101 cterm=NONE
 hi DiffAdd guifg=#000000 guibg=#619c91 guisp=#619c91 gui=NONE ctermfg=NONE ctermbg=73 cterm=NONE
 hi WildMenu guifg=NONE guibg=#a2a3a9 guisp=#a2a3a9 gui=NONE ctermfg=NONE ctermbg=248 cterm=NONE
@@ -55,7 +55,7 @@ hi Visual guifg=#0b060b guibg=#f0f4f8 guisp=#f0f4f8 gui=NONE ctermfg=232 ctermbg
 hi VertSplit guifg=#a5a5a5 guibg=#221119 guisp=#221119 gui=bold ctermfg=232 ctermbg=96 cterm=bold
 hi IncSearch guifg=#000000 guibg=#969696 guisp=#969696 gui=NONE ctermfg=NONE ctermbg=246 cterm=NONE
 hi WildMenu guifg=NONE guibg=#a2a3a9 guisp=#a2a3a9 gui=NONE ctermfg=NONE ctermbg=248 cterm=NONE
-hi SignColumn guifg=#0b060b guibg=#91446d guisp=#91446d gui=NONE ctermfg=232 ctermbg=132 cterm=NONE
+hi SignColumn guifg=#0b060b guibg=#b9b9b9 guisp=#b9b9b9 gui=NONE ctermfg=232 ctermbg=132 cterm=NONE
 hi SpecialComment guifg=#0f0709 guibg=NONE guisp=NONE gui=NONE ctermfg=109 ctermbg=NONE cterm=NONE
 hi Typedef guifg=#0f0709 guibg=NONE guisp=NONE gui=bold ctermfg=96 ctermbg=NONE cterm=bold
 hi Title guifg=#0f0709 guibg=#b3b3b5 guisp=#b3b3b5 gui=NONE ctermfg=233 ctermbg=249 cterm=NONE
@@ -67,7 +67,6 @@ hi StatusLineNC guifg=#0f0a0f guibg=#777579 guisp=#777579 gui=bold ctermfg=233 c
 "hi CTagsMember -- no settings --
 hi NonText guifg=#0f0709 guibg=NONE guisp=NONE gui=italic ctermfg=240 ctermbg=NONE cterm=NONE
 "hi CTagsGlobalConstant -- no settings --
-hi DiffText guifg=#bdbdbd guibg=#380505 guisp=#380505 gui=NONE ctermfg=250 ctermbg=52 cterm=NONE
 hi ErrorMsg guifg=#e0e0e0 guibg=#691717 guisp=#691717 gui=NONE ctermfg=254 ctermbg=52 cterm=NONE
 "hi Ignore -- no settings --
 hi Debug guifg=#0f0709 guibg=NONE guisp=NONE gui=NONE ctermfg=109 ctermbg=NONE cterm=NONE
@@ -102,7 +101,6 @@ hi TabLineFill guifg=#0b060b guibg=#53526e guisp=#53526e gui=bold ctermfg=232 ct
 "hi Question -- no settings --
 hi WarningMsg guifg=#0f0709 guibg=#829183 guisp=#829183 gui=NONE ctermfg=245 ctermbg=65 cterm=NONE
 hi VisualNOS guifg=#0b060b guibg=#f0f4f8 guisp=#f0f4f8 gui=underline ctermfg=232 ctermbg=224 cterm=underline
-hi DiffDelete guifg=#000000 guibg=#574c4c guisp=#574c4c gui=NONE ctermfg=NONE ctermbg=238 cterm=NONE
 hi ModeMsg guifg=#e0dcc9 guibg=#241524 guisp=#241524 gui=bold ctermfg=187 ctermbg=235 cterm=bold
 hi CursorColumn guifg=NONE guibg=#c2c2c2 guisp=#c2c2c2 gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
 hi Define guifg=#0f0709 guibg=NONE guisp=NONE gui=NONE ctermfg=109 ctermbg=NONE cterm=NONE
@@ -117,7 +115,6 @@ hi VertSplit guifg=#a5a5a5 guibg=#221119 guisp=#221119 gui=bold ctermfg=232 cter
 hi Exception guifg=#0f0709 guibg=NONE guisp=NONE gui=NONE ctermfg=233 ctermbg=NONE cterm=NONE
 hi Keyword guifg=#0f0709 guibg=NONE guisp=NONE gui=NONE ctermfg=233 ctermbg=NONE cterm=NONE
 hi Type guifg=#0f0709 guibg=NONE guisp=NONE gui=NONE ctermfg=233 ctermbg=NONE cterm=NONE
-hi DiffChange guifg=#000000 guibg=#807348 guisp=#807348 gui=NONE ctermfg=NONE ctermbg=101 cterm=NONE
 hi Cursor guifg=#ffffff guibg=#44333c guisp=#44333c gui=NONE ctermfg=232 ctermbg=230 cterm=NONE
 hi SpellLocal guifg=#e6c9ce guibg=#241524 guisp=#241524 gui=underline ctermfg=181 ctermbg=235 cterm=underline
 hi Error guifg=#0f0709 guibg=#829183 guisp=#829183 gui=NONE ctermfg=245 ctermbg=65 cterm=NONE
@@ -137,7 +134,12 @@ hi Directory guifg=#0f0709 guibg=NONE guisp=NONE gui=bold ctermfg=96 ctermbg=NON
 hi Structure guifg=#0f0709 guibg=NONE guisp=NONE gui=bold ctermfg=96 ctermbg=NONE cterm=bold
 hi Macro guifg=#0f0709 guibg=NONE guisp=NONE gui=NONE ctermfg=109 ctermbg=NONE cterm=NONE
 hi Underlined guifg=NONE guibg=NONE guisp=NONE gui=underline ctermfg=181 ctermbg=235 cterm=underline
-hi DiffAdd guifg=#000000 guibg=#619c91 guisp=#619c91 gui=NONE ctermfg=NONE ctermbg=73 cterm=NONE
 hi TabLine guifg=#000000 guibg=#806b80 guisp=#806b80 gui=bold ctermfg=NONE ctermbg=8 cterm=bold
 hi cursorim guifg=#0b060b guibg=#91446d guisp=#91446d gui=NONE ctermfg=232 ctermbg=132 cterm=NONE
+
+" Extra
+hi GitGutterDelete guifg=#691717 guibg=#b9b9b9 guisp=#b9b9b9 gui=NONE ctermfg=NONE ctermbg=238 cterm=NONE
+hi GitGutterChange guifg=#807348 guibg=#b9b9b9 guisp=#b9b9b9 gui=NONE ctermfg=NONE ctermbg=101 cterm=NONE
+hi GitGutterAdd guifg=#619c91 guibg=#b9b9b9 guisp=#b9b9b9 gui=NONE ctermfg=NONE ctermbg=73 cterm=NONE
+
 "hi clear -- no settings --
